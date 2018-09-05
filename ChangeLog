@@ -1,6 +1,14 @@
 CHANGES
 =======
 
+0.12.1
+------
+
+* Check for oslo library usage
+* Remove the oslo-utils dependency
+* Update UPPER\_CONSTRAINTS\_FILE for stable/rocky
+* Update .gitreview for stable/rocky
+
 0.12.0
 ------
 
