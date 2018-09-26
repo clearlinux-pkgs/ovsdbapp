@@ -1,13 +1,22 @@
 CHANGES
 =======
 
-0.12.1
+0.13.0
 ------
 
+* ut: Patch get\_ident for race transaction test
+* Make nested transaction thread aware
+* NBDB API: Add param if\_exists for methods using db\_remove()
+* add python 3.6 unit test job
+* import zuul job settings from project-config
 * Check for oslo library usage
+* fix tox python3 overrides
+* Pass posargs to pylint, not flake8
+* update pylint to 1.9.2
 * Remove the oslo-utils dependency
-* Update UPPER\_CONSTRAINTS\_FILE for stable/rocky
-* Update .gitreview for stable/rocky
+* Update reno for stable/rocky
+* Update reno for stable/rocky
+* Ensure timeout on queueing transaction
 
 0.12.0
 ------
