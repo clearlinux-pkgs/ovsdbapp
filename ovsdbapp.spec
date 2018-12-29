@@ -4,7 +4,7 @@
 #
 Name     : ovsdbapp
 Version  : 0.13.0
-Release  : 4
+Release  : 5
 URL      : https://files.pythonhosted.org/packages/8f/09/6f80c7937757574663eb878e47ebaef0c66dbe5ee1472b527230229d37eb/ovsdbapp-0.13.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8f/09/6f80c7937757574663eb878e47ebaef0c66dbe5ee1472b527230229d37eb/ovsdbapp-0.13.0.tar.gz
 Summary  : A library for creating OVSDB applications
