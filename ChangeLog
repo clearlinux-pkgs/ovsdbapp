@@ -1,10 +1,24 @@
 CHANGES
 =======
 
+0.14.0
+------
+
+* Attempt to fetch the schema from any remote
+* Fix a typo in docstring
+* Change openstack-dev to openstack-discuss
+* Add Gateway\_Chassis support
+* Group tests in same class to run in same group
+* Fix functional tests timeout race condition
+* Migrate tempest job to zuul v3 native
+* Expand retry behavior to cover other python-ovs methods
+* Add WaitEvent to the API
+
 0.13.0
 ------
 
 * ut: Patch get\_ident for race transaction test
+* Move ovsdbapp jobs to its tree
 * Make nested transaction thread aware
 * NBDB API: Add param if\_exists for methods using db\_remove()
 * add python 3.6 unit test job
