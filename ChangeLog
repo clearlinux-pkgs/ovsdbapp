@@ -1,6 +1,13 @@
 CHANGES
 =======
 
+0.15.0
+------
+
+* Convert base commands to ReadOnlyCommand
+* Allow read-only Commands to bypass txns in execute()
+* Update home-page
+
 0.14.0
 ------
 
