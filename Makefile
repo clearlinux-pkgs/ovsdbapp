@@ -1,5 +1,5 @@
 PKG_NAME := ovsdbapp
-URL = https://files.pythonhosted.org/packages/22/ce/14660a934aa915942c5cc1159afc720ab9482f715ecb62f72dee48caf9b5/ovsdbapp-0.15.0.tar.gz
+URL = https://files.pythonhosted.org/packages/2f/67/2f5c4fcf03c61aaee28158ea491997ac3a30fad8e2b5961f98c7acc49777/ovsdbapp-0.16.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common

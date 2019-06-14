@@ -1,6 +1,29 @@
 CHANGES
 =======
 
+0.16.0
+------
+
+* Make Event logging more useful by default
+* TrivialFix: Fix the chassis\_del comment in Southbound API
+* Change the order of parameters for lsp\_bind method
+* Allow match\_ip in LrNatDelCommand to be IP network
+* Add missing tox environment "functional-py36"
+* OpenDev Migration Patch
+* add an option to let the user choose the right time to start connection
+* Make it possible to opt out of nested transactions
+* Update master for stable/stein
+* Add db\_create\_row method
+* Add mock.patch.stopall cleanup handler to base test class
+* Mock Thread for both connection tests
+* Remove vtep-related code from venv testing
+* modify RowEvent hash key
+* Make event debug log more useful
+* Pass kwargs from execute to transaction()
+* Switch functional and tempest jobs to python3
+* Bump appdirs lower constraint
+* Break out match\_fn from matches
+
 0.15.0
 ------
 
