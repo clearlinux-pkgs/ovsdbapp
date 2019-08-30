@@ -1,9 +1,20 @@
 CHANGES
 =======
 
+0.17.0
+------
+
+* Add HA Chassis Group related commands
+* Add commands to set and get LRP options
+* Add Python 3 Train unit tests
+* Sync Sphinx requirement
+* Update the UPPER\_CONSTRAINTS\_FILE for tox
+
 0.16.0
 ------
 
+* Replace openstack repository by opendev
+* Move WaitForPortBindingEvent out from testing code
 * Make Event logging more useful by default
 * TrivialFix: Fix the chassis\_del comment in Southbound API
 * Change the order of parameters for lsp\_bind method
