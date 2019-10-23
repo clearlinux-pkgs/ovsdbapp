@@ -1,10 +1,23 @@
 CHANGES
 =======
 
+0.18.0
+------
+
+* Handle unset OVN\_SRCDIR
+* Default testenv to basepython = python3
+* Fix building OVS after python2 removal
+* Change EAFP to LBYL style in nested transaction
+* Handle the ovs/ovn split
+* Update master for stable/train
+* PDF documentation build
+* Update Zuul jobs: Enable docs publishing
+
 0.17.0
 ------
 
 * Add HA Chassis Group related commands
+* Fix the url, change http to https
 * Add commands to set and get LRP options
 * Add Python 3 Train unit tests
 * Sync Sphinx requirement
