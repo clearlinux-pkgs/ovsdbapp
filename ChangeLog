@@ -1,6 +1,19 @@
 CHANGES
 =======
 
+1.0.0
+-----
+
+* More robustly handle venv ovs/ovn paths
+* Log invalid address values in lsp\_set\_addresses
+* Make it possible to reference a newly created object within a transaction
+* Make ovndir configurable
+* Drop python 2 support and testing
+* Fix debug\_venv for ovn split
+* Add consts for OVN install path
+* Switch to Ussuri jobs
+* ovn\_northbound: make all list commands ReadOnlyCommand
+
 0.18.0
 ------
 
@@ -10,6 +23,7 @@ CHANGES
 * Change EAFP to LBYL style in nested transaction
 * Handle the ovs/ovn split
 * Update master for stable/train
+* Help with troubleshooting failures from venv.py
 * PDF documentation build
 * Update Zuul jobs: Enable docs publishing
 
