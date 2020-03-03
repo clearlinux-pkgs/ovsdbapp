@@ -4,7 +4,7 @@
 #
 Name     : ovsdbapp
 Version  : 1.0.0
-Release  : 15
+Release  : 16
 URL      : https://files.pythonhosted.org/packages/21/c9/ea673770a5dd8b79e2eb12c73ae54fa06e309599e792421c6148ddba7c40/ovsdbapp-1.0.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/21/c9/ea673770a5dd8b79e2eb12c73ae54fa06e309599e792421c6148ddba7c40/ovsdbapp-1.0.0.tar.gz
 Summary  : A library for creating OVSDB applications
@@ -30,10 +30,22 @@ BuildRequires : six
 ========
 ovsdbapp
 ========
+
 A library for creating OVSDB applications
+
 The ovdsbapp library is useful for creating applications that communicate
 via Open_vSwitch's OVSDB protocol (https://tools.ietf.org/html/rfc7047). It
 wraps the Python 'ovs' and adds an event loop and friendly transactions.
+
+* Free software: Apache license
+* Source: https://opendev.org/openstack/ovsdbapp/
+* Bugs: https://bugs.launchpad.net/ovsdbapp
+
+Features:
+
+* An thread-based event loop for using ovs.db.Idl
+* Transaction support
+* Native OVSDB communication
 
 %package license
 Summary: license components for the ovsdbapp package.
@@ -56,6 +68,7 @@ python components for the ovsdbapp package.
 Summary: python3 components for the ovsdbapp package.
 Group: Default
 Requires: python3-core
+Provides: pypi(ovsdbapp)
 
 %description python3
 python3 components for the ovsdbapp package.
@@ -70,7 +83,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1579895614
+export SOURCE_DATE_EPOCH=1583196287
 # -Werror is for werrorists
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
