@@ -1,6 +1,12 @@
 CHANGES
 =======
 
+1.1.0
+-----
+
+* Call row.verify() when updating map columns with db\_set
+* Do not try to execute transaction if command list is empty
+
 1.0.0
 -----
 
