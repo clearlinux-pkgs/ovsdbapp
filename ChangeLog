@@ -1,6 +1,27 @@
 CHANGES
 =======
 
+1.3.0
+-----
+
+* Add indexed column support to ovsdbapp
+* Remove translation sections from setup.cfg
+* OVNNB backend: Fix LbDelCommand when using vip param
+* Import ABCs from 'collections.abc'
+* Fix hacking min version to 3.0.1
+* Don't create new API instance in fixtures
+* Add "inactivity\_probe" parameter to "enable\_connection\_uri"
+* Fix spurious test failure
+* Allow read-only Commands to bypass txns in execute()
+* Tempest job inherits from Neutron tempest OVN job
+* Stop iterating on first matching QoS rule
+* Accept a Row as a result in AddCommand
+* Don't let an Exception in one event affect others
+* Remove the dependency on the "mock" package
+* Update master for stable/ussuri
+* Remove all usage of six library
+* Update hacking for Python3
+
 1.1.0
 -----
 
