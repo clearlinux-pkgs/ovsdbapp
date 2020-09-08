@@ -1,10 +1,26 @@
 CHANGES
 =======
 
+1.5.0
+-----
+
+* Add lock when calling idl.run()
+* Add a cause description to "TimeoutException"
+* Fix thread/threading change in unit test
+* Correct variable names for test
+* Add "if\_exists" parameter to "QoSDelCommand"
+* Change TestOvnNbIndex.test\_find to use Port\_Group
+* Add MAC\_Binding index lookup
+* Handle index lookups in DbFindCommand
+* Fix pep8 job
+* Make it more obvious when errors are ignored
+
 1.4.0
 -----
 
 * Add QoSDelExtIdCommand
+* drop mock from lower-constraints
+* Only create indices if connection is not running
 * Switch to newer openstackdocstheme and reno versions
 
 1.3.0
